@@ -74,4 +74,3 @@ print(zbior)  # {5, 6, 7, 8, 9, 10}
 
 slownik = {"name": "Radek", "age": 45}
 print(slownik)  # {'name': 'Radek', 'age': 45}
-#
