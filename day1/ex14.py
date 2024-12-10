@@ -1,7 +1,6 @@
-from csv import excel
 
 import pandas as pd
-from pandas.core.interchange.dataframe_protocol import DataFrame
+
 
 # df = pd.read_excel('../data/excel_with_multiple_sheets-1.xlsx', sheet_name=2)
 # df = pd.read_excel('../data/excel_with_multiple_sheets-1.xlsx', sheet_name="marks")
