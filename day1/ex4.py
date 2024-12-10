@@ -62,3 +62,11 @@ print(wb.sheetnames)
 
 wb.save('../data/videogamesales.xlsx')
 
+wb.remove(wb['Empty Sheet '])
+print(wb.sheetnames)
+
+wb.save('../data/videogamesales.xlsx')
+
+wb.copy_worksheet(wb['Video Games Sales Data'])
+wb.save('../data/videogamesales.xlsx')
+wb.save('../data/vgsales.xlsx')
