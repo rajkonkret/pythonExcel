@@ -9,6 +9,6 @@ data = [
 df = pd.DataFrame(data)
 print(df)
 
-writer = pd.ExcelWriter('excel_with_dict.xlsx', engine='xlsxwriter')
+writer = pd.ExcelWriter('../day2/excel_with_dict.xlsx', engine='xlsxwriter')
 df.to_excel(writer, sheet_name='first_sheet', index=False)
 writer.close()
